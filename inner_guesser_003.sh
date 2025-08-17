@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set your own drpool accountname
-accountname="mustfun.g002"
+accountname="mustfun.g003"
 
 pids=$(ps -ef | grep dr_neptune_prover | grep -v grep | awk '{print $2}')
 if [ -n "$pids" ]; then
