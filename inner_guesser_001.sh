@@ -12,7 +12,7 @@ fi
 while true; do
     target=$(ps aux | grep dr_neptune_prover | grep -v grep)
     if [ -z "$target" ]; then
-        ./dr_neptune_prover --pool stratum+tcp://neptune.drpool.io:30127 --worker $accountname
+        ~/npt/dr_neptune_prover/dr_neptune_prover --pool stratum+tcp://neptune.drpool.io:30127 --worker $accountname
         sleep 5
     fi
     sleep 60
