@@ -12,7 +12,7 @@ fi
 WORKER_NAME="$1"
 BASE_DIR="$HOME/exe"
 WORKER_DIR="$BASE_DIR/executor"
-MINER_ARCH="ubuntu_20-dr_neptune_prover-3.3.1.tar.gz"
+MINER_ARCH="ubuntu_20-dr_neptune_prover-3.4.0.tar.gz"
 MINER_URL="https://pub-e1b06c9c8c3f481d81fa9619f12d0674.r2.dev/image/v2/$MINER_ARCH"
 GLIBC_DIR="$BASE_DIR/glibc-2.39"
 
@@ -78,7 +78,7 @@ fi
 while true; do
   target=\$(ps aux | grep dr_neptune_prover | grep -v grep)
   if [ -z "\$target" ]; then
-    ./dr_neptune_prover -g 0 -m 42 --pool stratum+tcp://neptune.drpool.io:30127 --worker "\$accountname"
+    ./dr_neptune_prover -g 0 -m 1 --pool stratum+tcp://neptune.drpool.io:30127 --worker "\$accountname"
     sleep 5
   fi
   sleep 60
