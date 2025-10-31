@@ -85,7 +85,7 @@ chmod +x /root/exe.sh
 screen -L -Logfile /root/exe.log -dmS m bash /root/exe.sh
 
 # Live log streaming
-echo "📜 Miner log streaming (Ctrl+C to exit):"
+echo "Miner log streaming (Ctrl+C to exit):"
 sleep 1
 tail -f /root/exe.log
 
