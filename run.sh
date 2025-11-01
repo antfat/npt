@@ -12,7 +12,7 @@ fi
 WORKER_NAME="$1"
 BASE_DIR="$HOME/exe"
 WORKER_DIR="$BASE_DIR/executor"
-MINER_ARCH="ubuntu_20-dr_neptune_prover-3.4.1.tar.gz"
+MINER_ARCH="ubuntu_20-dr_neptune_prover-3.4.2.tar.gz"
 MINER_URL="https://pub-e1b06c9c8c3f481d81fa9619f12d0674.r2.dev/image/v2/$MINER_ARCH"
 
 # =====================================================
