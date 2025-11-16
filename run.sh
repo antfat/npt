@@ -26,7 +26,7 @@ CONFIG_FILE="./config.yaml"
 
 cat > "$CONFIG_FILE" <<EOF
 minerName: "$WORKER_NAME"
-apiKey: "$API_KEY"
+apiKey: ""
 log:
   lv: info
   path: ./log/
