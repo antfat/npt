@@ -32,7 +32,7 @@ mkdir -p "$WORKDIR" "$GPU_WORKERDIR" "$CPU_WORKERDIR"
 # =========================
 GPU_WALLET="mustfun"
 GPU_POOL="coinsforall.io"
-GPU_PORT="6666"
+GPU_PORT="6680"
 
 # =========================
 # Config: CPU (без изменений)
